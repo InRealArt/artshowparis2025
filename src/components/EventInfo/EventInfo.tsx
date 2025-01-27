@@ -9,6 +9,14 @@ import parse from 'html-react-parser';
 export default function EventInfo() {
   const { language, i18n } = useContext(I18nContext)
 
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault();
+    const targetId = e.currentTarget.getAttribute('href')?.replace('#', '');
+    const targetElement = document.getElementById(targetId || '');
+    
+    targetElement?.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div className={styles.eventInfoContainer}>
       <div className={styles.eventInfoItem1}>
@@ -22,7 +30,7 @@ export default function EventInfo() {
       </div>
       <div className={styles.button}>
         <div className={styles.buttonText}>
-          <Link href={`#catalogueRequest`}>
+          <Link href={`#catalogueRequest`} onClick={handleClick}>
             {parse(i18n[language].eventInfo.button)}
           </Link>  
         </div>
