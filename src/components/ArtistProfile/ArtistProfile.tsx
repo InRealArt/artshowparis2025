@@ -18,12 +18,12 @@ export default function ArtistProfile() {
         <div className={styles.images}>
           <div className={styles.artistArtwork}>
             <Image src="/img/artistProfile/c_senechal_artwork.jpg" 
-              alt="Œuvre emblématique de Catherine Sénéchal - Art contemporain abstrait"  
+              alt="Œuvre emblématique de Monique Laville - Art contemporain abstrait"  
               width={200} height={200} layout="responsive" />
           </div>
           <div className={styles.artistPhoto}>
             <Image src="/img/artistProfile/c_senechal.jpg" 
-              alt="Catherine Sénéchal - Artiste cotée - Expositions internationales - Représentée par InRealArt"  
+              alt="Monique Laville - Artiste cotée - Expositions internationales - Représentée par InRealArt"  
               width={200} height={200} layout="responsive" />
           </div>
         </div>
