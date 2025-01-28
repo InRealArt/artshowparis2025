@@ -44,6 +44,7 @@ const CatalogueRequest = () => {
               focusBorderColor='white'
               value={name}
               onChange={handleChangeName}
+              width={'400px'}
             />
           </div>
           <div className={styles.formLabel}>
@@ -53,6 +54,7 @@ const CatalogueRequest = () => {
               focusBorderColor='white'
               value={email}
               onChange={handleChangeEmail}
+              width={'400px'}
             />
           </div>
           <div className={styles.formLabel}>
@@ -62,6 +64,7 @@ const CatalogueRequest = () => {
               focusBorderColor='white'
               value={phone}
               onChange={handleChangePhone}
+              width={'400px'}
             />
           </div>
         </FormControl>
@@ -82,7 +85,10 @@ const CatalogueRequest = () => {
           */
         }
 
-        <button className={styles.submitButton} onClick={handleSubmitCatchpaForm}>
+        <button className={styles.submitButton} 
+          onClick={handleSubmitCatchpaForm}
+          
+          >
           {parse(i18n[language].catalogueRequest.button)}
         </button>
       </div>
