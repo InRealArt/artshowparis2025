@@ -26,7 +26,9 @@
     padding: 40px 40px 40px 200px;
     color: white;
     border-radius: 15px;
-  }
+    width: 100%;
+    box-sizing: border-box;
+}
   
   .title {
     color: black;
@@ -97,8 +99,13 @@
   
   .formLabel {
     margin-top: 20px;
+    width: 100%;
+    input {
+      width: 100% !important;
+      max-width: 400px;
+    }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 1100px) {
     .container {
       flex-direction: column;
     }
