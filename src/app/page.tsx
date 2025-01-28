@@ -20,9 +20,9 @@ export default function Home() {
       <ImageHeader />
       <EventInfo />
       <ArtistProfile />
-      <WhyChooseUs/>
       <Expertise/>
       <CatalogueStats/>
+      <WhyChooseUs/>
       <Testimonials/>
       <TrustedPartners/>
       <CatalogueRequest/>
