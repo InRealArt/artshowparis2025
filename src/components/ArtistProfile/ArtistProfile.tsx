@@ -17,15 +17,15 @@ export default function ArtistProfile() {
         </div>
         <div className={styles.images}>
           <div className={styles.artistArtwork}>
-            <Image src="/img/artistProfile/c_senechal_artwork.jpg" 
+            <Image src="/img/artistProfile/moniquelaville.jpeg" 
               alt="Œuvre emblématique de Monique Laville - Art contemporain abstrait"  
-              width={200} height={200} layout="responsive" />
+              width={200} height={200} style={{ objectFit: 'cover' }} />
           </div>
-          <div className={styles.artistPhoto}>
+          {/* <div className={styles.artistPhoto}>
             <Image src="/img/artistProfile/c_senechal.jpg" 
               alt="Monique Laville - Artiste cotée - Expositions internationales - Représentée par InRealArt"  
               width={200} height={200} layout="responsive" />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

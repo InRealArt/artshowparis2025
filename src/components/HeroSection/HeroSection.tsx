@@ -6,7 +6,7 @@ import { I18nContext } from '@/i18n-context';
 import { useContext } from 'react';
 import ImageGrid from './ImageGrid';
 
-export default function ImageHeader() {
+export default function HeroSection() {
   const { language, i18n } = useContext(I18nContext)
 
   return (
