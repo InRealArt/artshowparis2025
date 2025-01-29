@@ -19,7 +19,7 @@ export default function ArtistProfile() {
           <div className={styles.artistArtwork}>
             <Image src="/img/artistProfile/moniquelaville.jpeg" 
               alt="Œuvre emblématique de Monique Laville - Art contemporain abstrait"  
-              width={200} height={200} style={{ objectFit: 'cover' }} />
+              width={400} height={4500} style={{ objectFit: 'cover' }} />
           </div>
           {/* <div className={styles.artistPhoto}>
             <Image src="/img/artistProfile/c_senechal.jpg" 

@@ -64,7 +64,7 @@
       justify-content: center;
       @media (max-width: 1340px) {
         margin-top: 20px;
-        justify-content: space-between;
+        justify-content: center;
       }
       .artistPhoto {
         width: 300px;
@@ -79,8 +79,8 @@
       }
 
       .artistArtwork {
-        width: 300px;
-        height: 300px;
+        width: 400px;
+        height: 400px;
         border-radius: 15px; // Ajustez le rayon selon vos préférences
         overflow: hidden;
         align-self: flex-end;
